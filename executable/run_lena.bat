@@ -1,0 +1,1 @@
+BCDenoising.exe Lena512.png 30

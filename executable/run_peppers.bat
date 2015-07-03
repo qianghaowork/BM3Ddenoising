@@ -1,0 +1,1 @@
+BCDenoising.exe peppers256.png 25

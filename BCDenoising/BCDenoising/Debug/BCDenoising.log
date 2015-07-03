@@ -1,0 +1,22 @@
+﻿Build started 12/15/2011 1:24:42 AM.
+     1>Project "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\BCDenoising\BCDenoising.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\BCDenoising.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.2\include\opencv /IC:\OpenCV2.2\VS2010\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BCDenoising.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.2\include\opencv /IC:\OpenCV2.2\VS2010\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BCDenoising.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BCDenoising.cpp Blockmatching.cpp RelatedOperations.cpp
+         RelatedOperations.cpp
+     1>c:\opencv2.2\include\opencv\cv.h(63): fatal error C1083: Cannot open include file: 'opencv2/core/core_c.h': No such file or directory
+         Blockmatching.cpp
+     1>c:\opencv2.2\include\opencv\cv.h(63): fatal error C1083: Cannot open include file: 'opencv2/core/core_c.h': No such file or directory
+         BCDenoising.cpp
+     1>c:\opencv2.2\include\opencv\cv.h(63): fatal error C1083: Cannot open include file: 'opencv2/core/core_c.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\BCDenoising\BCDenoising.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.22

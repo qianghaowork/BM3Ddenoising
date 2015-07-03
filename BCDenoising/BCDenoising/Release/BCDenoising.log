@@ -1,0 +1,37 @@
+﻿Build started 12/16/2011 7:34:20 PM.
+     1>Project "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\BCDenoising\BCDenoising.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\".
+       InitializeBuildStatus:
+         Creating "Release\BCDenoising.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.2\include\opencv /IC:\OpenCV2.2\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\BCDenoising.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\OpenCV2.2\include\opencv /IC:\OpenCV2.2\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\BCDenoising.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BCDenoising.cpp Blockmatching.cpp RelatedOperations.cpp
+         BCDenoising.cpp
+     1>C:\OpenCV2.2\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Blockmatching.cpp
+     1>C:\OpenCV2.2\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         RelatedOperations.cpp
+     1>C:\OpenCV2.2\include\opencv2/flann/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\BCDenoising.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenCV2.2\VS2010\lib\Release opencv_core220.lib opencv_highgui220.lib opencv_imgproc220.lib opencv_ml220.lib /MANIFEST /ManifestFile:"Release\BCDenoising.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\BCDenoising.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\BCDenoising.lib" /MACHINE:X86 Release\BCDenoising.obj
+         Release\Blockmatching.obj
+         Release\RelatedOperations.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         BCDenoising.vcxproj -> C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\BCDenoising.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\Release\BCDenoising.exe;#1" /manifest Release\BCDenoising.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\BCDenoising.unsuccessfulbuild".
+         Touching "Release\BCDenoising.lastbuildstate".
+     1>Done Building Project "C:\QiangHao\courses\Advanced Image Processing\midterm2011\BCDenoising\BCDenoising\BCDenoising.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.71
