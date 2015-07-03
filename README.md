@@ -1,7 +1,7 @@
 # BM3Ddenoising
 C++ implementation of state-of-the-art BM3D image denoising algorithm. It's developed in C++ under Win32 and OpenCV library.  
  
-1.	Program configuration 
+(1).	Program configuration 
 
 The program is written in Microsoft Visual C++ 2010 Express and OpenCV 2.2.0. 
 After successfully installing VC2010 and OpenCV 2.2, the BCDenoising solution should set up the necessary including, lib directory and dependable lib files. 
@@ -13,7 +13,7 @@ Go to folder “\BCDenoising\”. Open “BCDenoising.sln” with Visual C++ 201
 2) In the “Configuration Properties->Linker->General”, input “C:\OpenCV2.2\VS2010\lib” in the Additional Library Directories command.
 3)   In the “Configuration Properties->Linker->Input”, add “ opencv_ml220.lib;opencv_imgproc220.lib; opencv_core220.lib; opencv_highgui220.lib” in the Additional dependencies command. 
 
-2.	Program execution
+(2).	Program execution
 
 There are two ways to execute the program. Two input parameters are needed: image file name and Gaussian standard derivative variance value. 
 
