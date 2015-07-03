@@ -25,7 +25,7 @@ Parameters can be modified in the *.bat file. It should be “BCDenoising.exe im
 
 The program will display the PSNR of noisy image, restored image in the 1st step and 2nd step with the original input image in the pop-up window. When it finishes, the original image, noisy image and final denoised image are displayed in three windows. Press any key and ease the program. 
 
-3.	Test images and results
+3. Test images and results
 
 Test images are included in the folder “\executable\”. The results are listed below and compared to the results from reference paper with DFT transformation implementation.  The program was run in Windows XP with 2.20GHz and 2GB RAM. 
 
@@ -38,7 +38,7 @@ PSNR(denoised)-BM3D	31.34 	 29.80 *	31.29 *
 Execution time	~ 1min	~ 3 min	~ 10min
 * denotes obtaining from http://www.cs.tut.fi/~foi/3D-DFT/. It wasn’t tested in my computer since it takes up several hours. 
 
-4.	Comments 
+4. Comments 
 
 1)	The results are comparable to the reference results with same parameters. It uses FFT to do 2D or 3D transformation. The BM3D can use other transformations, such as bior1.5 for 2D Hard thresholding and DCT for Wiener Filtering and 1D Harr for separable 3D transform. It will not achieve tremendous progress according to the results shown in http://www.cs.tut.fi/~foi/GCF-BM3D/index.html#ref_results. 
 
