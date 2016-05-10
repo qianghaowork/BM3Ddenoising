@@ -36,7 +36,7 @@ PSNR (denoised)	31.19	 29.28	30.81
 PSNR(noisy)-BM3D	22.11	 20.18	18.59
 PSNR(denoised)-BM3D	31.34 	 29.80 *	31.29 *
 Execution time	~ 1min	~ 3 min	~ 10min
-* denotes obtaining from http://www.cs.tut.fi/~foi/3D-DFT/. =
+* denotes obtaining from http://www.cs.tut.fi/~foi/3D-DFT/. 
 
 (4). Comments 
 
@@ -45,5 +45,5 @@ The results are comparable to the reference results with same parameters. It use
 The codes could be further optimized since we use exhaustive full search in both two steps. If predictive search is performed, the running time will be reduced. However, it is still acceptable compared to BM3DDFT Matlab implementation. The default searching window and maximum number of similar blocks can be customized to accelerate the code speed. 
 
 (5).	References
-[1] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3D transform-domain collaborative filtering,” IEEE Trans. Image Process., vol. 16, no. 8, pp. 2080-2095, August 2007.
+[1] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3D transform-domain collaborative filtering,” IEEE Trans. Image Process., vol. 16, no. 8, pp. 2080-2095, August 2007. \n
 [2] OpenCV 2.2 Reference Manul from the installed OpenCV2.2. 
