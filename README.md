@@ -45,5 +45,6 @@ The results are comparable to the reference results with same parameters. It use
 The codes could be further optimized since we use exhaustive full search in both two steps. If predictive search is performed, the running time will be reduced. However, it is still acceptable compared to BM3DDFT Matlab implementation. The default searching window and maximum number of similar blocks can be customized to accelerate the code speed. 
 
 (5).	References
+
 [1] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3D transform-domain collaborative filtering,” IEEE Trans. Image Process., vol. 16, no. 8, pp. 2080-2095, August 2007. 
 [2] OpenCV 2.2 Reference Manul from the installed OpenCV2.2. 
